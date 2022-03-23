@@ -1,1 +1,3 @@
 # learningC
+
+C programming basics
