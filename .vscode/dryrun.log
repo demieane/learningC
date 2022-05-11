@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/danevlavi/git_workspace/learningC/learningC'
+gcc  -o myprog hello.c
+make: Leaving directory '/home/danevlavi/git_workspace/learningC/learningC'
+ 
