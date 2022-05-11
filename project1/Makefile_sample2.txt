@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-I.
+
+myprog: main.o functions.o
+	$(CC) -o myprog main.o functions.o $(CFLAGS)

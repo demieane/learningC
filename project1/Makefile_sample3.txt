@@ -1,0 +1,19 @@
+CC=gcc
+CFLAGS=-I. #look in the current directory for header files
+DEPS = mylibrary.h
+
+#we define a rule that applies to all files 
+#ending in the .o suffix.
+#The rule says that the .o file depends upon 
+#the .c version of the file and the .h files 
+#included in the DEPS macro.
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+#(1) The -c flag says to generate the object file
+#(2) the -o $@ says to put the output of the compilation 
+#in the file named on the left side of the :
+#(3) the $< is the first item in the dependencies list
+
+myprog: main.o functions.o
+	$(CC) -o myprog main.o functions.o

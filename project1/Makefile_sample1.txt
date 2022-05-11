@@ -1,0 +1,2 @@
+myprog: main.c functions.c
+    gcc -o myprog main.c functions.c -I.
