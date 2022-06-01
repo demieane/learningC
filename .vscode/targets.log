@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Wed Jun  1 17:01:27 2022
+# Make data base, printed on Wed Jun  1 17:34:20 2022
 
 # Variables
 
@@ -196,7 +195,7 @@ CC = gcc
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2dc0667e-bb3f-4d91-96e0-56406c5d5e49.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0d1a9e82-7ec0-40d8-a1b8-1538330ca79c.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -216,7 +215,6 @@ LC_TELEPHONE = el_GR.UTF-8
 # default
 MAKE_COMMAND := make
 # default
- 
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
@@ -253,7 +251,7 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/5a189728_448a_4b05_94cb_eb42bb8a0150
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/42b804ee_f516_47da_ac27_cbc4da5fb7db
 # automatic
 ^F = $(notdir $^)
 # environment
@@ -281,8 +279,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 10905
+VSCODE_PID = 17918
 # variable set hash-table stats:
+ 
 # Load=135/1024=13%, Rehash=0, Collisions=19/168=11%
 
 # Pattern-specific Variable Values
@@ -376,6 +375,6 @@ hello.c:
 # strcache performance: lookups = 41 / hit rate = 21%
 # hash-table stats:
 # Load=32/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Wed Jun  1 17:01:27 2022
+# Finished Make data base on Wed Jun  1 17:34:20 2022
 
  
