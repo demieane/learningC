@@ -1,0 +1,3 @@
+gcc -c mathima6_func.c
+gcc -c mathima6.c
+gcc mathima6_func.o mathima6.o -o myprog
